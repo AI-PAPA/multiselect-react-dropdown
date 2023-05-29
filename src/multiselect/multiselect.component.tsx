@@ -530,6 +530,10 @@ export class Multiselect extends React.Component<IMultiselectProps, any> {
     this.optionTimeout = setTimeout(this.onCloseOptionList, 250);
   }
 
+  clearInputOnEnter(){
+    this.setState({ inputValue: '' })
+  }
+
   isVisible(elem) {
     return !!elem && !!( elem.offsetWidth || elem.offsetHeight || elem.getClientRects().length )
   }

@@ -1,9 +1,9 @@
 {
-  "name": "multiselect-react-dropdown",
+  "name": "@ai-papa/multiselect-react-dropdown",
   "version": "2.0.24",
   "description": "React multiselect dropdown component with search and various features",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "src/index.tsx",
+  "typings": "src/index.tsx",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack",
@@ -51,7 +51,7 @@
     "typescript": "^4.3.2",
     "url-loader": "^1.1.2",
     "webpack": "^4.40.6",
-    "webpack-cli": "^3.3.11",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "babel": {
@@ -82,6 +82,5 @@
     "normalize-url": "4.5.1",
     "css-what": "5.0.1",
     "glob-parent": "5.1.2"
-  },
-  "dependencies": {}
+  }
 }
